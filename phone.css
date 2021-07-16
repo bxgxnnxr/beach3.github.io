@@ -1,0 +1,108 @@
+
+#navbar::before{
+    content: "";
+      background-color: black;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: .4;
+  
+       
+    }
+#navbar{
+    height: 70px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   
+} 
+#navbar ul li{
+    
+    align-items: center;
+    justify-content: center;
+    padding: 0px 2px;
+    flex-wrap: wrap;
+    font-size: 15px;
+   
+   
+}
+#navbar ul {
+
+    flex-wrap: wrap;
+   
+}
+
+#home{
+
+
+}
+#home p{
+ 
+    font-size: 10px;
+
+}
+#beaches{
+ margin: 0px 0px 0px 0px;
+}
+
+#beaches .box{
+    width: 200px;
+    height: 380px;
+    background-color: #e767cb8e;
+    border: 2px solid purple;
+    margin: 2px 5px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+}
+ #beaches .box img{
+    height: 100px;
+    width: 200px;
+    
+ }
+ #bcontainer{
+    background-color: rgb(204, 200, 195);
+     
+}
+    
+#overview{
+  height: 200%;
+}
+#facility .box1 img{
+ width: 150px;
+ height: 150px;
+}
+#facility .box1:hover{
+   
+    transform: scale(2);
+
+} 
+
+#contact::before {
+    content: "";
+    background:url('contact.jpg')no-repeat center center /cover;
+    position: absolute;
+    height: 54%;
+    width: 100%;
+    z-index: -1;
+    opacity: .4;
+      
+  }
+
+#contactus{
+overflow: hidden;
+}
+#contactus input ,#contactus textarea{
+    padding: 1px 2px;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+.footer{
+    background-color: gray;
+ 
+    font-size: 1rem;
+   display: flex;
+  
+}
